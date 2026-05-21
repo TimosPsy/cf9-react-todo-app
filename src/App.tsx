@@ -1,11 +1,13 @@
-import {Camera} from "lucide-react";
+import Layout from "./shared/layout/Layout.tsx";
 
 
 function App() {
 
   return (
     <>
-      <Camera/>
+      <Layout>
+        <h1>Main Content</h1>
+      </Layout>
     </>
   )
 }
